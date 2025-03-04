@@ -103,49 +103,47 @@ namespace DSA_Project
         }
 
         public void InsertionSort()
-        { 
-            if(count == 0)
-            { Console.WriteLine("No student Found");
-            }
-            else
-            {
-                Node? temp1= head.Next;
-                while (temp1!= null)
-                {
-                    Node temp = temp1;
-                    double Key= temp1.SGPA;
-                    int KeyRE=temp1.REGNO;
-                    bool swapped = false;
-                    while (temp.Prev!= null)
-                    {
-                        
-                        if (temp.SGPA > Key)
-                        {
-                            temp.SGPA = temp.Prev.SGPA;
-                            temp.REGNO = temp.Prev.REGNO;
-                            temp = temp.Prev;
-                            swapped = true;
-                        }
-                        else { break; }
-                        
-                    }
-                    if (!swapped)
-                    {
-                        break;
-                    }
-                    else 
-                    {
-                        temp.REGNO = KeyRE;
-                        temp.SGPA = Key;
-                        
-                    }
-                }
+{
+    if (count == 0)
+    {
+        Console.WriteLine("No student Found");
+        return;
+    }
 
+            Node? current = head.Next;
 
+    while (current != null)
+    {
+        Node keyNode = current;
+        double keySGPA = current.SGPA;
+        int keyREGNO = current.REGNO;
+        
+        Node? prev = current.Prev;
 
-
-            }
+        
+        while (prev != null && prev.SGPA > keySGPA)
+        {
+            prev.Next.SGPA = prev.SGPA;
+            prev.Next.REGNO = prev.REGNO;
+            prev = prev.Prev;
         }
+
+        
+        if (prev == null)
+        {
+            head.SGPA = keySGPA;
+            head.REGNO = keyREGNO;
+        }
+        else
+        {
+            prev.Next.SGPA = keySGPA;
+            prev.Next.REGNO = keyREGNO;
+        }
+
+        current = current.Next;  
+    }
+}
+
       
 
        

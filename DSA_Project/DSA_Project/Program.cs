@@ -6,8 +6,35 @@ namespace DSA_Project
     
     class Program
     {
-        
 
+        static void GenerateRandomStudents(LinkedLIstcs Student, int count)
+        {
+            Random rand = new Random();
+            HashSet<int> regNumbers = new HashSet<int>();
+
+            for (int i = 0; i < count; i++)
+            {
+                int regno;
+                do
+                {
+                    regno = rand.Next(1000, 9999); // Generate unique reg number
+                } while (regNumbers.Contains(regno));
+
+                regNumbers.Add(regno);
+
+                int sem = rand.Next(1, 9); // Random semester (1 to 8)
+                double totalGPA = 0.0;
+
+                for (int j = 0; j < sem; j++)
+                {
+                    totalGPA += Math.Round(rand.NextDouble() * 4, 2); // GPA (0.0 to 4.0)
+                }
+
+                double SGPA = Math.Round(totalGPA / sem, 3);
+
+                Student.ADD(SGPA, regno); // Assuming ADD is the method to add students
+            }
+        }
         static void Main()
         {
             
@@ -24,7 +51,25 @@ namespace DSA_Project
             Exceptional_handling exp = new Exceptional_handling();
 
 
-            Student.GetStudentDetails();
+            Console.WriteLine("Do you want to auto-generate student data? (y/n)");
+            char autoGenerateChoice = Convert.ToChar(Console.ReadLine());
+
+            if (autoGenerateChoice == 'y')
+            {
+                Console.Write("Enter the number of random students to generate: ");
+                int numStudents = exp.GetValidInteger("Enter a valid number: ");
+
+                
+                GenerateRandomStudents(Student, numStudents);
+                
+
+                
+            }
+            else
+            {
+                Student.GetStudentDetails();
+            }
+
             e = 1;
 
 
