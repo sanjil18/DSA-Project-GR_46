@@ -40,33 +40,40 @@ namespace DSA_Project
             if (count == 0)
             {
                 Console.WriteLine("No students added");
+                return;
             }
-            else
+
+            bool swapped;
+            for (int i = 0; i < count - 1; i++)
             {
-                for (int i = 0; i < count; i++)
+                swapped = false;
+                Node temp = head;
+
+                for (int j = 0; j < count - i - 1; j++)  
                 {
-                    bool swapped = false;
-                    Node temp = head;
-                    while (temp.Next != null)
+                    if (temp.SGPA > temp.Next.SGPA)
                     {
-                        if (temp.SGPA > temp.Next.SGPA)
-                        {
-                            double temSGPA = temp.Next.SGPA;
-                            temp.Next.SGPA = temp.SGPA;
-                            temp.SGPA = temSGPA;
+                        
+                        double tempSGPA = temp.SGPA;
+                        temp.SGPA = temp.Next.SGPA;
+                        temp.Next.SGPA = tempSGPA;
 
-                            int temREGNO = temp.Next.REGNO;
-                            temp.Next.REGNO = temp.REGNO;
-                            temp.REGNO = temREGNO;
-                            swapped = true;
+                        
+                        int tempREGNO = temp.REGNO;
+                        temp.REGNO = temp.Next.REGNO;
+                        temp.Next.REGNO = tempREGNO;
 
-
-                        }
-                        temp = temp.Next;
+                        swapped = true;
                     }
+                    temp = temp.Next;
                 }
+
+                
+                if (!swapped)
+                    break;
             }
         }
+
         public void selectionSort()
         {
             Node temp1 = head;
@@ -103,50 +110,56 @@ namespace DSA_Project
         }
 
         public void InsertionSort()
-{
-    if (count == 0)
-    {
-        Console.WriteLine("No student Found");
-        return;
-    }
-
-            Node? current = head.Next;
-
-    while (current != null)
-    {
-        Node keyNode = current;
-        double keySGPA = current.SGPA;
-        int keyREGNO = current.REGNO;
-        
-        Node? prev = current.Prev;
-
-        
-        while (prev != null && prev.SGPA > keySGPA)
         {
-            prev.Next.SGPA = prev.SGPA;
-            prev.Next.REGNO = prev.REGNO;
-            prev = prev.Prev;
+            if (head == null || head.Next == null)
+            {
+                return; // No need to sort if 0 or 1 node
+            }
+
+            Node sortedHead = null; // Sorted part of the list
+            Node current = head;    // The node being inserted
+
+            while (current != null)
+            {
+                Node next = current.Next; // Store next node
+
+                InsertIntoSortedList(ref sortedHead, current); // Insert current into sorted list
+
+                current = next; // Move to next node
+            }
+
+            head = sortedHead; // Update head to the sorted list
         }
 
-        
-        if (prev == null)
+        // Helper function to insert a node in sorted order
+        private void InsertIntoSortedList(ref Node sorted, Node newNode)
         {
-            head.SGPA = keySGPA;
-            head.REGNO = keyREGNO;
+            if (sorted == null || newNode.SGPA < sorted.SGPA)
+            {
+                // Insert at the beginning
+                newNode.Next = sorted;
+                if (sorted != null) sorted.Prev = newNode;
+                sorted = newNode;
+                return;
+            }
+
+            // Find the correct position to insert
+            Node current = sorted;
+            while (current.Next != null && current.Next.SGPA < newNode.SGPA)
+            {
+                current = current.Next;
+            }
+
+            // Insert after current node
+            newNode.Next = current.Next;
+            if (current.Next != null) current.Next.Prev = newNode;
+
+            current.Next = newNode;
+            newNode.Prev = current;
         }
-        else
-        {
-            prev.Next.SGPA = keySGPA;
-            prev.Next.REGNO = keyREGNO;
-        }
 
-        current = current.Next;  
-    }
-}
 
-      
 
-       
         public void FirstRank()
         {
             Console.WriteLine();
