@@ -1,0 +1,43 @@
+C:\Users\strangerts\source\repos\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.exe
+C:\Users\strangerts\source\repos\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.deps.json
+C:\Users\strangerts\source\repos\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.runtimeconfig.json
+C:\Users\strangerts\source\repos\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.dll
+C:\Users\strangerts\source\repos\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.pdb
+C:\Users\strangerts\source\repos\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\strangerts\source\repos\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.AssemblyInfoInputs.cache
+C:\Users\strangerts\source\repos\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.AssemblyInfo.cs
+C:\Users\strangerts\source\repos\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.csproj.CoreCompileInputs.cache
+C:\Users\strangerts\source\repos\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.dll
+C:\Users\strangerts\source\repos\DSA_Project\DSA_Project\obj\Debug\net8.0\refint\DSA_Project.dll
+C:\Users\strangerts\source\repos\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.pdb
+C:\Users\strangerts\source\repos\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.genruntimeconfig.cache
+C:\Users\strangerts\source\repos\DSA_Project\DSA_Project\obj\Debug\net8.0\ref\DSA_Project.dll
+E:\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.exe
+E:\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.deps.json
+E:\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.runtimeconfig.json
+E:\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.dll
+E:\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.pdb
+E:\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.GeneratedMSBuildEditorConfig.editorconfig
+E:\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.AssemblyInfoInputs.cache
+E:\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.AssemblyInfo.cs
+E:\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.csproj.CoreCompileInputs.cache
+E:\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.dll
+E:\DSA_Project\DSA_Project\obj\Debug\net8.0\refint\DSA_Project.dll
+E:\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.pdb
+E:\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.genruntimeconfig.cache
+E:\DSA_Project\DSA_Project\obj\Debug\net8.0\ref\DSA_Project.dll
+C:\Users\sanji\OneDrive\Desktop\DSA github\DSA-Project-GR_46\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.exe
+C:\Users\sanji\OneDrive\Desktop\DSA github\DSA-Project-GR_46\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.deps.json
+C:\Users\sanji\OneDrive\Desktop\DSA github\DSA-Project-GR_46\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.runtimeconfig.json
+C:\Users\sanji\OneDrive\Desktop\DSA github\DSA-Project-GR_46\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.dll
+C:\Users\sanji\OneDrive\Desktop\DSA github\DSA-Project-GR_46\DSA_Project\DSA_Project\bin\Debug\net8.0\DSA_Project.pdb
+C:\Users\sanji\OneDrive\Desktop\DSA github\DSA-Project-GR_46\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sanji\OneDrive\Desktop\DSA github\DSA-Project-GR_46\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.AssemblyInfoInputs.cache
+C:\Users\sanji\OneDrive\Desktop\DSA github\DSA-Project-GR_46\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.AssemblyInfo.cs
+C:\Users\sanji\OneDrive\Desktop\DSA github\DSA-Project-GR_46\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.csproj.CoreCompileInputs.cache
+C:\Users\sanji\OneDrive\Desktop\DSA github\DSA-Project-GR_46\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.sourcelink.json
+C:\Users\sanji\OneDrive\Desktop\DSA github\DSA-Project-GR_46\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.dll
+C:\Users\sanji\OneDrive\Desktop\DSA github\DSA-Project-GR_46\DSA_Project\DSA_Project\obj\Debug\net8.0\refint\DSA_Project.dll
+C:\Users\sanji\OneDrive\Desktop\DSA github\DSA-Project-GR_46\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.pdb
+C:\Users\sanji\OneDrive\Desktop\DSA github\DSA-Project-GR_46\DSA_Project\DSA_Project\obj\Debug\net8.0\DSA_Project.genruntimeconfig.cache
+C:\Users\sanji\OneDrive\Desktop\DSA github\DSA-Project-GR_46\DSA_Project\DSA_Project\obj\Debug\net8.0\ref\DSA_Project.dll
